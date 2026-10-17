@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>12 Phrasal Verbs thông dụng</title>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Noto+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#eef1e2;--ink:#2c5a1f;--mute:#6a8957;--g:#4aa02c;--lime:rgba(190,226,105,.5);--card:rgba(251,253,244,.76);--line:rgba(74,160,44,.35);--opt:rgba(255,255,255,.65);--okb:rgba(150,212,100,.5);--nob:rgba(244,163,140,.5);--tip:rgba(236,243,170,.75);--glow:#f4f7c4;--glow2:#d9efc9;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#182214;--ink:#dcefc8;--mute:#a8c68f;--card:rgba(28,40,24,.78);--line:rgba(160,210,110,.3);--opt:rgba(255,255,255,.07);--tip:rgba(110,120,40,.4);--glow:#2c3a1d;--glow2:#1f3320;--lime:rgba(150,200,80,.28)}}
+:root[data-theme="dark"]{--paper:#182214;--ink:#dcefc8;--mute:#a8c68f;--card:rgba(28,40,24,.78);--line:rgba(160,210,110,.3);--opt:rgba(255,255,255,.07);--tip:rgba(110,120,40,.4);--glow:#2c3a1d;--glow2:#1f3320;--lime:rgba(150,200,80,.28)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font:400 16px/1.75 "Be Vietnam Pro",system-ui,sans-serif;color:var(--ink);overflow-x:hidden;background:radial-gradient(70% 45% at 50% 0,var(--glow) 0,transparent 70%),radial-gradient(60% 40% at 95% 65%,var(--glow2) 0,transparent 70%),var(--paper);background-attachment:fixed}
+#grain{position:fixed;inset:0;z-index:50;pointer-events:none;opacity:.4;mix-blend-mode:multiply;background:url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27220%27%20height%3D%27220%27%3E%3Cfilter%20id%3D%27n%27%3E%3CfeTurbulence%20type%3D%27fractalNoise%27%20baseFrequency%3D%27.8%27%20numOctaves%3D%272%27/%3E%3CfeColorMatrix%20values%3D%270%200%200%200%20.35%200%200%200%200%20.45%200%200%200%200%20.25%200%200%200%20.55%200%27/%3E%3C/filter%3E%3Crect%20width%3D%27220%27%20height%3D%27220%27%20filter%3D%27url%28%23n%29%27/%3E%3C/svg%3E")}
+#sq{position:fixed;inset:0;z-index:0;pointer-events:none}
+#sq i{position:absolute;width:clamp(36px,7vw,64px);aspect-ratio:1;background:var(--lime);animation:bk 6s ease-in-out infinite}
+@keyframes bk{50%{opacity:.35}}
+#top{position:fixed;top:0;left:0;right:0;z-index:60;padding:calc(8px + env(safe-area-inset-top,0px)) 12px 10px;background:var(--card);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line);transform:translateY(-110%);transition:transform .4s}
+#top.on{transform:none}
+.tb{max-width:980px;margin:0 auto;display:flex;align-items:center;gap:10px;font:600 13px "Be Vietnam Pro"}
+#nv{display:flex;gap:4px;overflow-x:auto;flex:1;scrollbar-width:none}
+#nv a{white-space:nowrap;color:var(--ink);text-decoration:none;padding:2px 12px;transition:.25s}
+#nv a.on{background:var(--g);color:#fff}
+#so{color:#3d9a2a}#sw{color:#d1583a}#snd{border:0;background:none;font-size:19px;cursor:pointer}
+.pgw{position:absolute;left:0;bottom:0;right:0;height:3px}
+#pg{display:block;height:100%;width:0;background:var(--g);transition:width .5s}
+header{position:relative;z-index:1;min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:80px 7vw 50px;max-width:1040px;margin:0 auto;overflow:hidden}
+.arc{position:absolute;width:min(78vw,680px);aspect-ratio:1;border-radius:50%;left:50%;top:-6%;transform:translateX(-50%);background:radial-gradient(circle at 50% 45%,rgba(205,232,140,.65),rgba(190,226,140,.25) 62%,transparent 68%)}
+.beam{position:absolute;left:-10%;width:130%;height:64px;filter:blur(7px);opacity:.85}
+.b1{top:50%;transform:rotate(-15deg);background:linear-gradient(90deg,transparent,rgba(255,255,255,.8),rgba(200,235,120,.6),transparent)}
+.b2{top:46%;transform:rotate(15deg);background:linear-gradient(90deg,transparent,rgba(170,205,255,.4),rgba(255,205,230,.35),rgba(255,255,255,.6),transparent)}
+.meta{position:absolute;top:calc(70px + env(safe-area-inset-top,0px));left:7vw;font:500 12px/1.6 "Be Vietnam Pro";color:var(--ink)}
+.frac{position:absolute;top:calc(64px + env(safe-area-inset-top,0px));right:7vw;text-align:center;font:400 38px/1.05 "Cormorant Garamond",serif;color:var(--g)}
+.frac small{display:block;font:500 11px "Be Vietnam Pro";color:var(--mute)}
+.fl{position:absolute;right:9%;top:18%;width:clamp(120px,22vw,210px);animation:fl 7s ease-in-out infinite;filter:drop-shadow(0 12px 18px rgba(74,160,44,.3))}
+@keyframes fl{50%{transform:translateY(-16px) rotate(1.5deg)}}
+.ws{font:500 10px "Be Vietnam Pro";letter-spacing:.9em;color:var(--mute);margin-bottom:6px}
+.zh{position:relative;font:400 clamp(48px,14.5vw,150px)/.95 "Cormorant Garamond",serif;color:var(--g);letter-spacing:.01em;animation:rise 1.4s both}
+.zh2{position:relative;font:italic 400 clamp(18px,3.4vw,26px) "Cormorant Garamond",serif;color:var(--ink);margin:14px 0 6px;animation:rise 1.4s .2s both}
+.sub{position:relative;max-width:420px;font-size:14.5px;margin:8px 0 22px;animation:rise 1.4s .4s both}
+@keyframes rise{from{opacity:0;transform:translateY(30px)}}
+.chips{position:relative;display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px}
+.chip{color:var(--ink);text-decoration:none;font-size:14px;font-weight:600;padding:2px 14px;border:1px solid var(--g);transition:.25s}
+.chip:hover{background:var(--g);color:#fff;transform:translateY(-3px)}
+.go,.btn{position:relative;border:0;background:var(--g);color:#fff;font:600 15px "Be Vietnam Pro";padding:11px 30px;cursor:pointer;transition:.25s;align-self:flex-start;letter-spacing:.04em}
+.go:hover,.btn:hover{transform:translateY(-3px);background:#3d8a22}
+.wrap{position:relative;z-index:1;max-width:940px;margin:0 auto;padding:0 16px 120px}
+.part{padding:80px 0 0}
+.ph{display:flex;align-items:flex-end;gap:16px;margin-bottom:22px;border-bottom:1px solid var(--line);padding-bottom:10px}
+.ph em{font:300 clamp(60px,14vw,100px)/.85 "Cormorant Garamond",serif;font-style:normal;color:var(--g)}
+.ph span{letter-spacing:.3em;font-size:11px;color:var(--mute);text-transform:uppercase}
+.ph h2{font:600 clamp(30px,6.5vw,46px)/1.05 "Cormorant Garamond",serif}
+.ph p{color:var(--mute);font-size:14px;font-style:italic}
+.card,.q,#res,.vc{background:var(--card);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid var(--line);padding:20px 24px;margin-bottom:16px;position:relative}
+.card::before,.q::before,.vc::before{content:"";position:absolute;top:-1px;left:-1px;width:14px;height:14px;background:var(--g)}
+.vg{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px;margin-bottom:18px}
+.vc{margin:0;transition:transform .35s,box-shadow .35s}
+.vc:hover{transform:translateY(-6px);box-shadow:0 14px 30px rgba(74,160,44,.25)}
+.vc .no{position:absolute;right:14px;top:6px;font:300 44px "Cormorant Garamond",serif;color:var(--lime)}
+.vc h3{font:600 30px/1.1 "Cormorant Garamond",serif;color:var(--g)}
+.pos{display:inline-block;font-size:12px;border:1px solid var(--g);padding:0 8px;margin:4px 0}
+.mn{font-weight:700}.vc .ex{font-style:italic;font-size:14.5px;margin-top:6px}.vc .vn{font-size:13.5px;color:var(--mute)}
+.nt{padding:12px 18px;margin-bottom:16px;font-size:15px;border-left:5px solid #b8c93a;background:var(--tip)}
+li{margin:4px 0 4px 20px}
+i{color:var(--mute)}
+.rv{opacity:0;transform:translateY(34px);transition:opacity .8s,transform .8s cubic-bezier(.2,.8,.2,1)}
+.rv.on{opacity:1;transform:none}
+.qh{display:flex;justify-content:space-between;align-items:center;margin:30px 0 14px}
+.qh h3{font:600 26px "Cormorant Garamond",serif}
+.qh b{background:var(--g);color:#fff;padding:2px 16px}
+.q{transition:box-shadow .4s,transform .8s,opacity .8s}
+.q.ok2{box-shadow:0 10px 30px rgba(74,160,44,.35)}.q.no2{box-shadow:0 10px 30px rgba(209,88,58,.3)}
+.n{font:600 12px "Be Vietnam Pro";letter-spacing:.25em;color:var(--g)}
+.t{font:600 17px/1.6 "Be Vietnam Pro";margin:2px 0 12px}
+.t u{text-decoration:none;display:inline-block;min-width:60px;border-bottom:3px solid var(--g)}
+.op{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:560px){.op{grid-template-columns:1fr}}
+.op button{display:flex;gap:10px;align-items:center;text-align:left;font:500 15px "Be Vietnam Pro";padding:9px 14px;border:1px solid var(--line);background:var(--opt);color:var(--ink);cursor:pointer;transition:.2s}
+.op button b{flex:none;width:26px;height:26px;background:var(--g);color:#fff;display:grid;place-items:center;font-size:13px}
+.op button:hover:not(:disabled){transform:translateX(5px);border-color:var(--g)}
+.op button:disabled{cursor:default}
+.op .c{background:linear-gradient(90deg,#a9dd7a,#d3eeaa)!important;color:#1d4310!important}
+.op .x{background:linear-gradient(90deg,#f4a58d,#f8c9b9)!important;color:#6a2210!important;animation:sk .4s}
+@keyframes sk{25%{transform:translateX(-7px)}75%{transform:translateX(7px)}}
+.fb{margin-top:12px;padding:11px 16px;font-size:14.5px;animation:up .4s}
+.fb.ok{background:var(--okb)}.fb.no{background:var(--nob)}
+@keyframes up{from{opacity:0;transform:translateY(8px)}}
+textarea{width:100%;padding:10px;font:inherit;border:1px solid var(--line);background:var(--opt);color:var(--ink);margin-bottom:8px;resize:vertical}
+#res{text-align:center;padding:34px 20px;margin-top:60px}
+#res h2{font:400 34px "Cormorant Garamond",serif;letter-spacing:.2em}
+#res .big{font:300 clamp(56px,15vw,100px)/1.1 "Cormorant Garamond",serif;color:var(--g)}
+#pp{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:8px 0 12px;font-size:14px}
+#pp i{font-style:normal;color:var(--ink);padding:0 14px;border:1px solid var(--line)}
+#res .btn{align-self:auto;margin-top:12px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+
+.ipa{font-family:"Noto Sans","Segoe UI",sans-serif;font-size:14px;color:var(--mute)}
+.pt{font:600 28px "Cormorant Garamond",serif;color:var(--g)}
+.en{font-size:16.5px;margin:6px 0 8px}.vi{font-style:italic;color:var(--mute);margin-bottom:12px;font-size:15px}
+mark.kw{background:var(--lime);color:var(--ink);padding:0 4px;font-weight:600}
+.tgl{border:1px solid var(--g);background:none;color:var(--g);font:600 12px "Be Vietnam Pro";padding:2px 12px;cursor:pointer;margin-bottom:8px}
+.tgl:hover{background:var(--g);color:#fff}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:560px;font-size:14.5px}
+th{background:var(--g);color:#fff;text-align:left;padding:8px 12px;font-weight:600}td{padding:8px 12px;border-top:1px solid var(--line);vertical-align:top}
+small{color:var(--mute);font-style:italic}
+.tl{width:100%;height:auto;display:block;margin:8px 0}
+.tl .ax{stroke:var(--ink);stroke-width:3}.tl .ah{fill:var(--ink)}.tl .dash{stroke:#d1583a;stroke-dasharray:5 4;stroke-width:2}
+.tl text{fill:var(--ink);font:600 12.5px "Be Vietnam Pro",system-ui,sans-serif}.tl .sm{font-weight:400;font-size:11.5px;opacity:.8}
+.tl .ph{font-weight:700;letter-spacing:.2em;fill:var(--g)}.tl .ph2{fill:#d1583a}
+.tl .pa,.tl .pb{transform-box:fill-box;transform-origin:left center;transform:scaleX(0);transition:transform 1.2s .3s;stroke-width:2.5}
+.tl .pa{fill:rgba(74,160,44,.35);stroke:var(--g)}.tl .pb{fill:rgba(209,88,58,.22);stroke:#d1583a;transition-delay:1.5s}
+.rv.on .tl .pa,.rv.on .tl .pb{transform:scaleX(1)}
+.tl .d{fill:var(--g);opacity:0;transition:opacity .6s 1s}.tl .d.x{fill:#d1583a;transition-delay:2s}.rv.on .tl .d{opacity:1}
+.tl .s{stroke:var(--ink);stroke-width:3}.tlc p{font-size:15px;margin-top:6px}
+
+.wb{display:flex;flex-wrap:wrap;gap:8px;border:1px dashed var(--g);padding:12px;margin-bottom:16px;background:var(--card)}
+.wb span{border:1px solid var(--g);padding:0 12px;font-weight:600;color:var(--g)}
+.rw{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.rw input{flex:1;min-width:200px;padding:8px 12px;font:inherit;border:1px solid var(--line);background:var(--opt);color:var(--ink)}
+.rw .btn{padding:8px 22px;font-size:14px}
+.t u{min-width:110px}
+</style>
+</head>
+<body>
+<div id="grain"></div><div id="sq"></div>
+<div id="top"><div class="tb"><nav id="nv"><a href="#s1">Bài học</a><a href="#s2">Điền từ</a><a href="#s3">Chọn đáp án</a><a href="#s4">Dịch câu</a></nav><span id="so">✔ 0</span><span id="sw">✘ 0</span><button id="snd" aria-label="Âm thanh">🔊</button></div><div class="pgw"><i id="pg"></i></div></div>
+<header>
+<div class="arc"></div><div class="beam b1"></div><div class="beam b2"></div>
+<div class="meta">Lesson: Phrasal Verbs<br>Topic: Daily life<br>Learning Guide</div>
+<div class="frac">12<br>/<br>45<small>cụm động từ / bài tập</small></div>
+<svg class="fl" viewBox="0 0 200 420"><defs><linearGradient id="pg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4aa02c"/><stop offset="1" stop-color="#b6dc70"/></linearGradient><g id="fw"><ellipse cy="-26" rx="12" ry="28" fill="url(#pg)" opacity=".85"/><ellipse cy="-26" rx="12" ry="28" fill="url(#pg)" opacity=".85" transform="rotate(72)"/><ellipse cy="-26" rx="12" ry="28" fill="url(#pg)" opacity=".85" transform="rotate(144)"/><ellipse cy="-26" rx="12" ry="28" fill="url(#pg)" opacity=".85" transform="rotate(216)"/><ellipse cy="-26" rx="12" ry="28" fill="url(#pg)" opacity=".85" transform="rotate(288)"/></g></defs><path d="M100 415C94 330 110 270 98 200S104 100 100 70" stroke="#6fb04a" stroke-width="5" fill="none" opacity=".85"/><use href="#fw" transform="translate(100 70) scale(1.1)"/><use href="#fw" transform="translate(70 215) scale(.8) rotate(20)"/><use href="#fw" transform="translate(132 325) scale(.7) rotate(-15)"/><g transform="translate(70 150) rotate(18)"><ellipse rx="34" ry="13" fill="#d3e86c"/><path d="M-30 0q-30-6-44 4 18 4 30 6z" fill="#8cc152"/><circle cx="30" cy="-4" r="9" fill="#d3e86c"/><path d="M38-4l12 4-12 4z" fill="#e8a33d"/><circle cx="33" cy="-6" r="1.8" fill="#2c5a1f"/></g></svg>
+<div class="ws">W W W W W W</div>
+<div class="zh">PHRASAL<br>VERBS</div>
+<div class="zh2">Small words, big meanings.</div>
+<p class="sub">12 cụm động từ thông dụng qua 3 đoạn văn ngữ cảnh, kèm bài điền từ, trắc nghiệm và dịch câu, có giải thích ngay sau mỗi câu.</p>
+<div class="chips"><a class="chip" href="#s1">Bài học</a><a class="chip" href="#s2">Điền từ</a><a class="chip" href="#s3">Chọn đáp án</a><a class="chip" href="#s4">Dịch câu</a></div>
+<button class="go" id="go">Bắt đầu học ➔</button>
+</header>
+<main class="wrap">
+<section class="part" id="s1"><div class="ph rv"><em>01</em><div><span>Reading</span><h2>Bài học: 12 cụm động từ</h2><p>3 đoạn văn ngữ cảnh, bảng phiên âm và ý nghĩa</p></div></div><div class="nt rv"><b>Cách học:</b> đọc các đoạn văn, chú ý các cụm động từ được tô sáng, xem phiên âm và nghĩa trong bảng rồi làm bài tập.</div><div class="card rv"><h3 class="pt">Đoạn 1: Thói quen buổi sáng (Morning Routine)</h3><p class="en">Every morning, I usually <mark class=kw>wake up</mark> at 6 AM, but I don't <mark class=kw>get up</mark> immediately. I like to stay in bed for another 10 minutes. Then, I <mark class=kw>put on</mark> my uniform, grab my backpack, and <mark class=kw>set off</mark> for school before the traffic gets too heavy.</p><div class="tw"><table><tr><th>Phrasal Verb</th><th>Phiên âm</th><th>Ý nghĩa</th></tr><tr><td><b>wake up</b></td><td class="ipa">/weɪk ʌp/</td><td>Tỉnh giấc (mở mắt sau khi ngủ)</td></tr><tr><td><b>get up</b></td><td class="ipa">/ɡet ʌp/</td><td>Thức dậy, rời khỏi giường</td></tr><tr><td><b>put on</b></td><td class="ipa">/pʊt ɒn/</td><td>Mặc (quần áo), mang (giày)</td></tr><tr><td><b>set off</b></td><td class="ipa">/set ɒf/</td><td>Khởi hành, bắt đầu lên đường</td></tr></table></div></div><div class="card rv"><h3 class="pt">Đoạn 2: Học tập & Làm việc (School & Work)</h3><p class="en">During the English lesson, if I don't know a new word, I always <mark class=kw>look up</mark> its meaning in the dictionary. The teacher tells us to <mark class=kw>write down</mark> the important grammar rules in our notebooks. Sometimes, when the math problem is too hard, it takes me hours to <mark class=kw>figure out</mark> the answer. Finally, we have to <mark class=kw>hand in</mark> our assignments before Friday.</p><div class="tw"><table><tr><th>Phrasal Verb</th><th>Phiên âm</th><th>Ý nghĩa</th></tr><tr><td><b>look up</b></td><td class="ipa">/lʊk ʌp/</td><td>Tra cứu (từ vựng, thông tin)</td></tr><tr><td><b>write down</b></td><td class="ipa">/raɪt daʊn/</td><td>Ghi chép lại</td></tr><tr><td><b>figure out</b></td><td class="ipa">/ˈfɪɡər aʊt/</td><td>Suy nghĩ, tìm ra cách giải quyết/hiểu ra</td></tr><tr><td><b>hand in</b></td><td class="ipa">/hænd ɪn/</td><td>Nộp (bài tập, báo cáo)</td></tr></table></div></div><div class="card rv"><h3 class="pt">Đoạn 3: Gặp gỡ bạn bè (Social Life)</h3><p class="en">On weekends, I love to <mark class=kw>hang out</mark> with my best friends at the local cafe. We always <mark class=kw>look forward to</mark> our meetings because we have so much to talk about. However, yesterday, one of my friends didn't <mark class=kw>show up</mark> because it rained heavily. We eventually had to <mark class=kw>call off</mark> our outdoor picnic and stayed inside instead.</p><div class="tw"><table><tr><th>Phrasal Verb</th><th>Phiên âm</th><th>Ý nghĩa</th></tr><tr><td><b>hang out</b></td><td class="ipa">/hæŋ aʊt/</td><td>Đi chơi, la cà (với bạn bè)</td></tr><tr><td><b>look forward to</b></td><td class="ipa">/lʊk ˈfɔːrwərd tuː/</td><td>Mong đợi, háo hức (theo sau là V-ing hoặc Noun)</td></tr><tr><td><b>show up</b></td><td class="ipa">/ʃoʊ ʌp/</td><td>Xuất hiện, có mặt, đến nơi</td></tr><tr><td><b>call off</b></td><td class="ipa">/kɔːl ɒf/</td><td>Hủy bỏ (sự kiện, cuộc họp)</td></tr></table></div></div><div class="nt rv"><b>Lưu ý:</b> <b>look forward to</b> theo sau là V-ing hoặc danh từ (I am looking forward to seeing you). Với đại từ ngắn, cụm có thể bị tách: <b>look it up</b>, <b>write it down</b>.</div></section><section class="part" id="s2"><div class="ph rv"><em>02</em><div><span>Exercise 1</span><h2>Bài 1: Điền từ vào chỗ trống</h2><p>20 câu, chia động từ cho phù hợp với thì của câu</p></div></div><div class="wb rv"><span>wake up</span><span>get up</span><span>put on</span><span>set off</span><span>look up</span><span>write down</span><span>figure out</span><span>hand in</span><span>hang out</span><span>look forward to</span><span>show up</span><span>call off</span></div><div class="qh rv"><h3>Điền cụm động từ</h3><b id="sc1">0/20</b></div><p class="rv" style="color:var(--mute);margin-bottom:12px">Dùng các từ trong hộp. Một số từ có thể dùng nhiều lần. Nhấn Enter hoặc bấm Kiểm tra.</p><div id="q1"></div></section><section class="part" id="s3"><div class="ph rv"><em>03</em><div><span>Exercise 2</span><h2>Bài 2: Chọn đáp án đúng nhất</h2><p>Chọn A, B hoặc C (10 câu có trong file)</p></div></div><div class="qh rv"><h3>Chọn đáp án</h3><b id="sc2">0/10</b></div><div id="q2"></div></section><section class="part" id="s4"><div class="ph rv"><em>04</em><div><span>Exercise 3</span><h2>Bài 3: Dịch sang tiếng Anh</h2><p>Dùng các phrasal verbs đã học (15 câu)</p></div></div><div class="qh rv"><h3>Dịch câu</h3><b id="sc3">0/15</b></div><p class="rv" style="color:var(--mute);margin-bottom:12px">Hệ thống kiểm tra bạn có dùng đúng cụm động từ cần học không, rồi hiện câu gợi ý.</p><div id="q3"></div></section>
+<div id="res" class="rv"><h2>KẾT QUẢ</h2><div class="big" id="big">0 / 45</div><div id="pp"></div><p id="msg">Hoàn thành tất cả câu hỏi để nhận lời nhắn nhé.</p><button class="btn" onclick="location.reload()">Làm lại từ đầu ↺</button></div>
+</main>
+<script>
+const $=s=>document.querySelector(s);let ac,on=true;
+function tone(f,t,d,ty,v,to){const o=ac.createOscillator(),g=ac.createGain();o.type=ty;o.frequency.setValueAtTime(f,t);if(to)o.frequency.exponentialRampToValueAtTime(to,t+d);g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(v,t+.015);g.gain.exponentialRampToValueAtTime(.0001,t+d);o.connect(g);g.connect(ac.destination);o.start(t);o.stop(t+d+.05)}
+function sfx(ok){if(!on)return;try{ac=ac||new(window.AudioContext||window.webkitAudioContext)();ac.resume();const t=ac.currentTime;if(ok)[660,880,1175].forEach((f,i)=>tone(f,t+i*.09,.4,"sine",.16));else{tone(300,t,.3,"triangle",.16,190);tone(220,t+.15,.35,"triangle",.14,150)}}catch(e){}}
+$("#snd").onclick=()=>{on=!on;$("#snd").textContent=on?"🔊":"🔇"};
+
+const F=[{"n": 1, "q": "I usually ___________ at 7:00 AM on Sundays.", "alts": ["wake up"], "ans": "wake up", "e": "Thói quen ngày Chủ nhật, thì hiện tại đơn: wake up = tỉnh giấc."}, {"n": 2, "q": "Don't forget to ___________ your coat; it's cold.", "alts": ["put on"], "ans": "put on", "e": "put on = mặc vào; Don't forget to + V nguyên mẫu."}, {"n": 3, "q": "We need to ___________ early to avoid traffic.", "alts": ["set off"], "ans": "set off", "e": "set off = khởi hành; need to + V, đi sớm để tránh kẹt xe."}, {"n": 4, "q": "I will ___________ this word in the dictionary.", "alts": ["look up"], "ans": "look up", "e": "look up = tra cứu từ trong từ điển; will + V nguyên mẫu."}, {"n": 5, "q": "Please ___________ your name on this piece of paper.", "alts": ["write down"], "ans": "write down", "e": "write down = ghi lại tên; Please + V nguyên mẫu."}, {"n": 6, "q": "I can't ___________ how to fix this broken bike.", "alts": ["figure out"], "ans": "figure out", "e": "figure out = tìm ra cách sửa; can't + V nguyên mẫu."}, {"n": 7, "q": "The students must ___________ their essays tomorrow.", "alts": ["hand in"], "ans": "hand in", "e": "hand in = nộp bài luận; must + V nguyên mẫu."}, {"n": 8, "q": "Do you want to ___________ with us tonight?", "alts": ["hang out"], "ans": "hang out", "e": "hang out = đi chơi cùng bạn bè; want to + V nguyên mẫu."}, {"n": 9, "q": "I am really ___________ seeing my grandparents.", "alts": ["looking forward", "looking forward to"], "ans": "looking forward to", "e": "be looking forward to + V-ing / danh từ (seeing là V-ing): háo hức mong đợi."}, {"n": 10, "q": "He promised to come, but he didn't ___________.", "alts": ["show up"], "ans": "show up", "e": "show up = xuất hiện; didn't + V nguyên mẫu (dù đã hứa sẽ đến)."}, {"n": 11, "q": "The boss decided to ___________ the meeting due to bad weather.", "alts": ["call off"], "ans": "call off", "e": "call off = hủy bỏ cuộc họp; decided to + V nguyên mẫu."}, {"n": 12, "q": "It's hard to ___________ from bed when it's raining.", "alts": ["get up"], "ans": "get up", "e": "get up = rời khỏi giường; hard to + V nguyên mẫu."}, {"n": 13, "q": "She ___________ a beautiful dress for the party last night.", "alts": ["put on"], "ans": "put on", "e": "put on = mặc; quá khứ của put vẫn là put (last night)."}, {"n": 14, "q": "If you don't know the answer, ___________ it online.", "alts": ["look", "look it up", "look up"], "ans": "look it up", "e": "Câu hoàn chỉnh: look it up online. Đại từ “it” chen giữa cụm look up, nên chỗ trống là “look” (cũng chấp nhận “look up”)."}, {"n": 15, "q": "I need some time to ___________ this math problem.", "alts": ["figure out"], "ans": "figure out", "e": "figure out = tìm ra đáp án; need some time to + V."}, {"n": 16, "q": "They had to ___________ the football match because of snow.", "alts": ["call off"], "ans": "call off", "e": "call off = hủy trận đấu vì tuyết; had to + V nguyên mẫu."}, {"n": 17, "q": "My alarm didn't ring, so I didn't ___________ on time.", "alts": ["wake up"], "ans": "wake up", "e": "wake up = tỉnh giấc; didn't + V nguyên mẫu (đồng hồ báo thức không reo)."}, {"n": 18, "q": "Make sure to ___________ the teacher's instructions carefully.", "alts": ["write down"], "ans": "write down", "e": "write down = ghi lại hướng dẫn; Make sure to + V nguyên mẫu."}, {"n": 19, "q": "Did you ___________ your application form yet?", "alts": ["hand in"], "ans": "hand in", "e": "hand in = nộp đơn; Did you + V nguyên mẫu?"}, {"n": 20, "q": "We waited for an hour, but she never ___________.", "alts": ["showed up"], "ans": "showed up", "e": "Quá khứ (waited), nên dùng showed up = không đến."}],M=[{"n": 21, "q": "I always _____ early on Mondays.", "o": ["wake up", "look up", "call off"], "a": 0, "e": "wake up = tỉnh giấc sớm vào thứ Hai. look up là tra cứu, call off là hủy bỏ."}, {"n": 22, "q": "She _____ her shoes and went out.", "o": ["put on", "set off", "handed in"], "a": 0, "e": "put on = mang (giày) vào rồi ra ngoài. handed in là nộp, set off là khởi hành."}, {"n": 23, "q": "We _____ for London at 5 AM.", "o": ["set off", "showed up", "figured out"], "a": 0, "e": "set off = khởi hành đi London lúc 5 giờ sáng."}, {"n": 24, "q": "_____ the meaning if you are unsure.", "o": ["Look up", "Wake up", "Call off"], "a": 0, "e": "Look up = tra cứu nghĩa của từ khi chưa chắc (câu mệnh lệnh)."}, {"n": 25, "q": "Please _____ the address so you don't forget it.", "o": ["write down", "hang out", "put on"], "a": 0, "e": "write down = ghi lại địa chỉ để khỏi quên."}, {"n": 31, "q": "The concert was _____ because the singer was sick.", "o": ["called off", "put on", "set off"], "a": 0, "e": "was called off = bị hủy (bị động) vì ca sĩ bị ốm."}, {"n": 32, "q": "I _____, but I stayed in bed for another hour.", "o": ["woke up", "handed in", "looked up"], "a": 0, "e": "woke up = đã tỉnh giấc (quá khứ), nhưng vẫn nằm thêm một tiếng."}, {"n": 33, "q": "What time do you usually _____ in the morning?", "o": ["get up", "call off", "write down"], "a": 0, "e": "get up = thức dậy, rời khỏi giường vào buổi sáng."}, {"n": 34, "q": "It's freezing outside! _____ a heavy jacket.", "o": ["Put on", "Figure out", "Show up"], "a": 0, "e": "Put on = mặc áo khoác dày vì trời lạnh cóng."}, {"n": 35, "q": "They _____ on their journey at dawn.", "o": ["set off", "hung out", "looked up"], "a": 0, "e": "set off = khởi hành lên đường lúc bình minh (dawn)."}],T=[{"q": "Tôi thường tỉnh giấc lúc 6 giờ sáng.", "re": "wake up", "ans": "I usually wake up at 6 AM.", "e": "wake up = tỉnh giấc"}, {"q": "Nhưng tôi thức dậy (ra khỏi giường) lúc 6 giờ 15.", "re": "get up", "ans": "But I get up at 6:15.", "e": "get up = ra khỏi giường"}, {"q": "Hãy mặc áo khoác của bạn vào, trời lạnh đấy.", "re": "put on", "ans": "Put on your coat, it's cold.", "e": "put on = mặc vào"}, {"q": "Chúng tôi sẽ khởi hành đến bãi biển vào ngày mai.", "re": "set off", "ans": "We will set off for the beach tomorrow.", "e": "set off = khởi hành"}, {"q": "Nếu bạn không biết từ này, hãy tra cứu nó.", "re": "look (it )?up", "ans": "If you don't know this word, look it up.", "e": "look up / look it up = tra cứu"}, {"q": "Vui lòng ghi chép lại số điện thoại của tôi.", "re": "write (it |my phone number )?down", "ans": "Please write down my phone number.", "e": "write down = ghi lại"}, {"q": "Tôi không thể tìm ra cách sử dụng cái máy này.", "re": "figure out", "ans": "I can't figure out how to use this machine.", "e": "figure out = tìm ra, hiểu ra"}, {"q": "Bạn phải nộp bài tập về nhà vào ngày mai.", "re": "hand in", "ans": "You must hand in your homework tomorrow.", "e": "hand in = nộp"}, {"q": "Cuối tuần này, tôi sẽ đi chơi với bạn bè.", "re": "hang out", "ans": "This weekend, I will hang out with my friends.", "e": "hang out = đi chơi"}, {"q": "Tôi rất mong đợi chuyến đi này.", "re": "looking forward to", "ans": "I am looking forward to this trip.", "e": "look forward to + V-ing/Noun = mong đợi"}, {"q": "Anh ấy đã không xuất hiện tại buổi tiệc.", "re": "show(ed)? up", "ans": "He didn't show up at the party.", "e": "show up = xuất hiện"}, {"q": "Họ đã hủy bỏ trận đấu vì trời mưa.", "re": "call(ed)? off", "ans": "They called off the match because it rained.", "e": "call off = hủy bỏ"}, {"q": "Mấy giờ bạn thức dậy vào ngày Chủ Nhật?", "re": "get up", "ans": "What time do you get up on Sunday?", "e": "get up = thức dậy"}, {"q": "Nhớ tra cứu thông tin trước cuộc họp.", "re": "look up", "ans": "Remember to look up the information before the meeting.", "e": "look up = tra cứu"}, {"q": "Cuối cùng anh ấy cũng tìm ra sự thật.", "re": "figur(ed|e) out", "ans": "He finally figured out the truth.", "e": "figure out = tìm ra"}];
+const L="ABC",S=[[0,0],[0,0],[0,0]],N=[F.length,M.length,T.length],TOT=N[0]+N[1]+N[2],names=["Điền từ","Chọn đáp án","Dịch câu"];
+function upd(){const a=S.reduce((x,s)=>x+s[1],0),o=S.reduce((x,s)=>x+s[0],0);$("#pg").style.width=a/TOT*100+"%";$("#so").textContent="✔ "+o;$("#sw").textContent="✘ "+(a-o);S.forEach((s,i)=>$("#sc"+(i+1)).textContent=s[0]+"/"+N[i]);$("#big").textContent=o+" / "+TOT;$("#pp").innerHTML=names.map((n,i)=>`<i>${n}: ${S[i][0]}/${N[i]}</i>`).join("");
+if(a==TOT){const r=o/TOT;$("#msg").textContent=r>=.9?"Tuyệt vời! Bạn dùng phrasal verbs rất chắc.":r>=.7?"Khá tốt! Ôn lại vài cụm còn sai rồi thử lại nhé.":"Cố lên! Đọc lại các đoạn văn rồi làm lại nha.";$("#res").scrollIntoView({block:"center"})}}
+const mk=(c,h)=>{const d=document.createElement("div");d.className=c;d.innerHTML=h;return d};
+const nm=s=>s.toLowerCase().replace(/[’‘]/g,"'").replace(/[^a-z0-9' ]+/g," ").replace(/\s+/g," ").trim();
+function fin(d,fb,pi,ok,html){d.classList.add(ok?"ok2":"no2");fb.style.display="block";fb.className="fb "+(ok?"ok":"no");fb.innerHTML=html;S[pi][0]+=ok;S[pi][1]++;sfx(ok);upd()}
+F.forEach(f=>{const d=mk("q rv",`<span class="n">CÂU ${f.n}</span><p class="t">${f.q.replace(/_{3,}/g,"<u>&nbsp;</u>")}</p><div class="rw"><input type="text" placeholder="gõ cụm động từ..." autocomplete="off"><button class="btn">Kiểm tra</button></div><div class="fb" style="display:none"></div>`);
+const ip=d.querySelector("input"),bt=d.querySelector(".btn"),fb=d.querySelector(".fb");
+const go=()=>{if(bt.disabled||!ip.value.trim())return;const ok=f.alts.includes(nm(ip.value));ip.disabled=bt.disabled=true;fin(d,fb,0,ok,(ok?"✅ <b>Chính xác!</b> ":"❌ <b>Chưa đúng.</b> ")+`Đáp án: <b>${f.ans}</b>. ${f.e}`)};
+bt.onclick=go;ip.onkeydown=e=>{if(e.key=="Enter")go()};$("#q1").appendChild(d)});
+M.forEach(q=>{const d=mk("q rv",`<span class="n">CÂU ${q.n}</span><p class="t">${q.q.replace(/_{3,}/g,"<u>&nbsp;</u>")}</p><div class="op">${q.o.map((t,j)=>`<button data-j="${j}"><b>${L[j]}</b>${t}</button>`).join("")}</div><div class="fb" style="display:none"></div>`);
+const bs=d.querySelectorAll("button"),fb=d.querySelector(".fb");
+bs.forEach(b=>b.onclick=()=>{const j=+b.dataset.j,ok=j==q.a;bs.forEach(x=>x.disabled=true);bs[q.a].classList.add("c");if(!ok)b.classList.add("x");fin(d,fb,1,ok,(ok?"✅ <b>Chính xác!</b> ":`❌ <b>Chưa đúng.</b> Đáp án đúng là <b>${L[q.a]}. ${q.o[q.a]}</b>. `)+q.e)});$("#q2").appendChild(d)});
+T.forEach((t,i)=>{const d=mk("q rv",`<span class="n">CÂU ${i+1}</span><p class="t">${t.q}</p><div class="rw"><input type="text" placeholder="Viết câu tiếng Anh..." autocomplete="off"><button class="btn">Kiểm tra</button></div><div class="fb" style="display:none"></div>`);
+const ip=d.querySelector("input"),bt=d.querySelector(".btn"),fb=d.querySelector(".fb");
+const go=()=>{if(bt.disabled||!ip.value.trim())return;const v=nm(ip.value),ok=new RegExp("\\b"+t.re+"\\b").test(v)&&v.split(" ").length>=3;ip.disabled=bt.disabled=true;fin(d,fb,2,ok,(ok?"✅ <b>Tốt!</b> Bạn đã dùng đúng cụm động từ. ":"❌ <b>Chưa thấy cụm động từ cần dùng</b> (hoặc câu quá ngắn). ")+`<br>Câu gợi ý: <b>${t.ans}</b><br><i>${t.e}</i>`)};
+bt.onclick=go;ip.onkeydown=e=>{if(e.key=="Enter")go()};$("#q3").appendChild(d)});
+$("#go").onclick=()=>$("#s1").scrollIntoView();
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add("on");io.unobserve(x.target)}}),{threshold:.06});
+document.querySelectorAll(".rv").forEach(el=>io.observe(el));
+const secs=[...document.querySelectorAll(".part")],links=[...document.querySelectorAll("#nv a")];
+addEventListener("scroll",()=>{$("#top").classList.toggle("on",scrollY>innerHeight*.7);let c=-1;secs.forEach((s,i)=>{if(s.getBoundingClientRect().top<innerHeight*.35)c=i});links.forEach((a,i)=>a.classList.toggle("on",i==c))},{passive:true});
+(function(){let h="";for(let k=0;k<14;k++){const col=k%2,row=Math.floor(k/2);h+=`<i style="left:calc(50% + ${(col?1:-1)*(20+(row%3)*34)}px);top:${6+row*13}%;animation-delay:${-k*.7}s;opacity:${.25+(k%4)*.12}"></i>`}$("#sq").innerHTML=h})();
+upd();
+</script>
+</body>
+</html>
